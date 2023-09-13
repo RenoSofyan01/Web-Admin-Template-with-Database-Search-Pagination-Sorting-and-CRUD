@@ -29,6 +29,27 @@
 <!-- DataTables JavaScript -->
 <script type="text/javascript" src="https://cdn.datatables.net/1.11.5/js/jquery.dataTables.min.js"></script>
 
+  <!-- Google Font: Source Sans Pro -->
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,400i,700&display=fallback">
+  <!-- Font Awesome -->
+  <link rel="stylesheet" href="plugins/fontawesome-free/css/all.min.css">
+  <!-- Ionicons -->
+  <link rel="stylesheet" href="https://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css">
+  <!-- Tempusdominus Bootstrap 4 -->
+  <link rel="stylesheet" href="plugins/tempusdominus-bootstrap-4/css/tempusdominus-bootstrap-4.min.css">
+  <!-- iCheck -->
+  <link rel="stylesheet" href="plugins/icheck-bootstrap/icheck-bootstrap.min.css">
+  <!-- JQVMap -->
+  <link rel="stylesheet" href="plugins/jqvmap/jqvmap.min.css">
+  <!-- Theme style -->
+  <link rel="stylesheet" href="dist/css/adminlte.min.css">
+  <!-- overlayScrollbars -->
+  <link rel="stylesheet" href="plugins/overlayScrollbars/css/OverlayScrollbars.min.css">
+  <!-- Daterange picker -->
+  <link rel="stylesheet" href="plugins/daterangepicker/daterangepicker.css">
+  <!-- summernote -->
+  <link rel="stylesheet" href="plugins/summernote/summernote-bs4.min.css">
+
 
 <script type="text/javascript">
   $(document).ready(function(){
@@ -38,28 +59,28 @@
 
 </head>
 
-<body>
-<div class="collapse text-center" id="navbarToggleExternalContent" style="background-color: #ffbb7b;">
-<div class="">
-<ul class="navbar-nav me-auto mb-2 mb-lg-0 nav nav-underline">
+<body  class="hold-transition sidebar-mini layout-fixed">
+<div class="collapse text-center" id="navbarToggleExternalContent" style="background-color: blue;">
+  <div class="wrapper">
+    <ul class="navbar-nav me-auto mb-2 mb-lg-0 nav nav-underline">
         <li class="nav-item">
-          <a class="nav-link active" aria-current="page" href="index.php">Admin</a>
+          <a class="nav-link active" aria-current="page" href="index.php" style="color: white;">Database Admin</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="user.php">User</a>
+          <a class="nav-link" href="user.php"  style="color: white;">Database User</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="swasta.php">Swasta</a>
+          <a class="nav-link" href="swasta.php" style="color: white;">Database Swasta</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="provinsi.php">Provinsi</a>
+          <a class="nav-link" href="provinsi.php" style="color: white;">Database Provinsi</a>
         </li>
       </ul>
   </div>
 </div>
-<nav class="navbar" style="background-color: #ffbb7b;">
+<nav class="navbar" style="background-color: blue;">
   <div class="container-fluid">
-    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarToggleExternalContent" aria-controls="navbarToggleExternalContent" aria-expanded="false" aria-label="Toggle navigation">
+    <button class="navbar-toggler" type="button" style="color: white;" data-bs-toggle="collapse" data-bs-target="#navbarToggleExternalContent" aria-controls="navbarToggleExternalContent" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
     </button>
   </div>
@@ -70,7 +91,7 @@
         <a href="kelola.php" class="btn btn-primary me-md-2 mt-4 md-4" type="button"><i class="fa fa-plus" aria-hidden="true"></i> Add New Data</a>
     </div>
     <div class="table-responsive">
-    <table id="tb" class="table table-success table-striped align-middle table-hover" >
+    <table id="tb" class="table table-success table-striped align-middle table-hover"  >
     <thead>
       <tr>
         <th>No</th>

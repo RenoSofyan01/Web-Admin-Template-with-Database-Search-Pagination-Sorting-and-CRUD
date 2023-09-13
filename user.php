@@ -37,27 +37,27 @@ $no = 0;
 </head>
 
 <body>
-<div class="collapse text-center" id="navbarToggleExternalContent" style="background-color: #ffbb7b;">
+<div class="collapse text-center" id="navbarToggleExternalContent" style="background-color: blue;">
     <div class="">
         <ul class="navbar-nav me-auto mb-2 mb-lg-0 nav nav-underline">
             <li class="nav-item">
-                <a class="nav-link" aria-current="page" href="index.php">Admin</a>
+                <a class="nav-link" aria-current="page" href="index.php" style="color: white;">Database Admin</a>
             </li>
             <li class="nav-item">
-                <a class="nav-link active" href="user.php">User</a>
+                <a class="nav-link active" href="user.php" style="color: white;">Database User</a>
             </li>
             <li class="nav-item">
-                <a class="nav-link" href="swasta.php">Swasta</a>
+                <a class="nav-link" href="swasta.php" style="color: white;">Database Swasta</a>
             </li>
             <li class="nav-item">
-                <a class="nav-link" href="provinsi.php">Provinsi</a>
+                <a class="nav-link" href="provinsi.php" style="color: white;">Database Provinsi</a>
             </li>
         </ul>
     </div>
 </div>
-<nav class="navbar" style="background-color: #ffbb7b;">
+<nav class="navbar" style="background-color: blue;">
     <div class="container-fluid">
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarToggleExternalContent" aria-controls="navbarToggleExternalContent" aria-expanded="false" aria-label="Toggle navigation">
+        <button class="navbar-toggler" style="color: white;" type="button" data-bs-toggle="collapse" data-bs-target="#navbarToggleExternalContent" aria-controls="navbarToggleExternalContent" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
         </button>
     </div>

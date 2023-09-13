@@ -42,7 +42,7 @@
     <link rel="stylesheet" href="fontawesome/css/font-awesome.min.css">
 </head>
 <body>
-<nav class="navbar" style="background-color: #ffbb7b;">
+<nav class="navbar" style="background-color: blue;">
   <div class="container-fluid">
     <a class="navbar-brand" href="#"></a>
     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
